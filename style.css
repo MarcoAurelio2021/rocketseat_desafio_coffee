@@ -1,0 +1,54 @@
+:root{
+    
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: var(--backgrond);
+}
+
+main {
+width: 100vw;
+height: 100vh;
+}
+
+main header {
+    position: absolute;
+    width: 918px;
+    height: 50px;
+    left: 280px;
+    top: 50px;
+
+   
+    
+    
+    
+
+    
+    
+}
+
+ .itensMenu {
+    display: inline;
+  
+}
+  
+
+a {
+color: var(--text-color);
+}
