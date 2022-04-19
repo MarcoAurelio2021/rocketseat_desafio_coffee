@@ -1,0 +1,190 @@
+:root{
+    
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+
+}
+
+* {
+   
+    margin: 0px;
+    box-sizing:content-box;
+}
+
+body {
+position: relative;
+width: 1360px;
+height: 768px;
+   
+    background: var(--backgrond);
+}
+
+header {
+    position: relative;
+    width: 918px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: 50px;
+
+}
+
+/* MENU ========================== */
+.menu-list{
+    
+    position: relative;
+    width: 431.35px;
+    height: 19px;
+    margin-left: 464px;
+    margin-top: 65px;
+   
+ 
+
+}
+
+
+.menu-list p {
+display: inline;
+color: var(--text-color);
+position: relative;
+}
+
+.menu-list .home { 
+/* position: absolute; */
+width: 43.24px;
+height: 19px;
+margin-left: 464px;
+margin-top: 65px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+}
+
+.menu-list .menu {
+/* position: absolute; */
+width: 41.08px;
+height: 19px;
+margin-left: 539.68px;
+margin-top: 65px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+}
+
+.menu-list .recompensas {
+/* position: absolute; */
+width: 103.78px;
+height: 19px;
+left: 613.19px;
+top: 65px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+}
+
+.menu-list .gift {
+/* position: absolute; */
+width: 74.59px;
+height: 19px;
+left: 749.41px;
+top: 65px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+}
+
+.menu-list .lojas {
+    /* position: absolute; */
+width: 38.92px;
+height: 19px;
+left: 856.43px;
+top: 65px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+}
+
+ .menu-list p a {
+    color:var(--text-color);
+}
+
+
+/* caixa botão */
+
+.header .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 38px;
+    
+    position: absolute;
+    width: 172px;
+    height: 37px;
+    margin-left: 1026px;
+    margin-top: 56px;
+    
+    border: 1px solid var(--button);
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+
+
+
+/* PEGAR MEU CAFÉ */
+
+.header .btn .pegar {
+    position: static;
+width: 96px;
+height: 15px;
+margin-left: 38px;
+margin-top: 11px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+
+color: var(--text-color);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+background:none;
+border:none;
+}
