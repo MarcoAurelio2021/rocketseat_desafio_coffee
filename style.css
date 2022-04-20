@@ -19,22 +19,19 @@ body {
     /* Desktop */
 
 position: relative;
-width: 1360px;
-height: 768px;
+width: 100vw;
+height: 100vh;
 margin: 0;
 background-color: var(--backgrond);
 }
 
 header {
-    position:absolute;
+    position:relative;
 width: 918px;
 height: 50px;
 margin-left: 280px;
 margin-top: 50px;
 
-
-
-border: #FFF solid;
 
 }
 
@@ -44,6 +41,8 @@ width: 43.06px;
 height: 50px;
 margin-left: 0px;
 margin-top: 0px;
+
+
 }
 
 /* Menu-header */
@@ -52,8 +51,7 @@ margin-top: 0px;
 width: 431.35px;
 height: 19px;
 margin-left: 200px;
-margin-top: 20px;
-border: #FFF solid;
+margin-top: 14.5px;
 
 
 }
@@ -63,8 +61,14 @@ border: #FFF solid;
 .menu-list ul ol {
     display: inline;
     justify-content: space-between;
-    margin: 0 14px;
+    margin: 0 18px;
+   
 
+}
+
+.menu-list ul ol a {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .menu-list ul .home {
@@ -147,3 +151,27 @@ flex-grow: 0;
 margin: 0px 10px;
 }
 
+/* Main */
+
+
+.blur-left{
+    position: absolute;
+width: 321px;
+height: 321px;
+margin-left: -29px;
+margin-top: 495px;
+
+background: #996DFF;
+filter: blur(400px);
+}
+
+.blur-right {
+    position: absolute;
+width: 321px;
+height: 321px;
+margin-left: 1200px;
+margin-top: -100px;
+
+background: #996DFF;
+filter: blur(400px);
+}
