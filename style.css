@@ -18,7 +18,7 @@
 body {
     /* Desktop */
 
-/* position: relative; */
+position: relative;
 width: 1360px;
 height: 768px;
 margin: 0;
@@ -26,56 +26,81 @@ background-color: var(--backgrond);
 }
 
 header {
-position: fixed;
-display: flex;
-z-index: 100;
-    width: 918px;
-    height: 50px;
-    margin-left: 280px;
-    margin-top: 50px;
-border: #FFF solid 1px;
-}
-
-
-
-  .menu-list p a {
-    color: var(--text-color);
-}
-
-
-
-
-#logo {
-    display: flex;
-    justify-content: left;
-position: absolute;
-width: 43.06px;
+    position:absolute;
+width: 918px;
 height: 50px;
 margin-left: 280px;
 margin-top: 50px;
 
 
-}
 
- .menu-list {
-     display: flex;
-     justify-content: space-between;
- 
- position: absolute;
- width: 431.35px;
- height: 19px;
- margin-left: 464px;
- margin-top: 65px;
- 
-border: #FFF solid 1px;
+border: #FFF solid;
 
 }
 
-/* Auto layout */
+#logo {
+    position: absolute;
+width: 43.06px;
+height: 50px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+/* Menu-header */
+.menu-list {
+    position: absolute;
+width: 431.35px;
+height: 19px;
+margin-left: 200px;
+margin-top: 20px;
+border: #FFF solid;
+
+
+}
+
+/* Lista do Menu do header */
+
+.menu-list ul ol {
+    display: inline;
+    justify-content: space-between;
+    margin: 0 14px;
+
+}
+
+.menu-list ul .home {
+    /* position: absolute; */
+width: 43.24px;
+height: 19px;
+margin-left: 0;
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+}
+
+.menu-list ul .lojas {
+ width: 41.08px;
+height: 19px;
+margin-right: 0;
+
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.0
+}
+
+/* Botão */
 
 .btn {
-
-display: flex;
+    display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -84,23 +109,23 @@ padding: 11px 38px;
 position: absolute;
 width: 172px;
 height: 37px;
-margin-left: 1026px;
-margin-top: 56px;
+margin-left:744px ;
+margin-top: 5px;
+
 
 border: 1px solid #8257E5;
 box-sizing: border-box;
 border-radius: 6px;
 }
 
-.btn .pegar {
-    /* PEGAR MEU CAFÉ */
-
-
-position: static;
+.pegar {
+    position: static;
 width: 96px;
 height: 15px;
-margin-left: 38px;
-margin-top: 11px;
+left: 38px;
+top: 11px;
+background: none;
+border: none;
 
 font-family: 'Manrope';
 font-style: normal;
@@ -120,84 +145,5 @@ flex: none;
 order: 0;
 flex-grow: 0;
 margin: 0px 10px;
-background: none;
-border:none;
 }
 
-/* Itens do Menu */
-
-.home {
-   
-    width: 43.24px;
-    height: 19px;
-    margin-left: 0;
-    /* margin-top: 6.5px; */
-    
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.02em;
-}
-
-.menu {
-   
-    width: 41.08px;
-    height: 19px;
-    /* margin-top: 6.5px; */
-    
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.02em;
-}
-
-.recompensas {
- 
-width: 103.78px;
-height: 19px;
-
-/* margin-top: 6.5px; */
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.02em;
-}
-
-.gift {
-   
-width: 74.59px;
-height: 19px;
-
-/* margin-top: 6.5px; */
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.02em;
-}
-
-.lojas {
-  
-    width: 38.92px;
-    height: 19px;
-   
-    /* margin-top: 6.5px; */
-    margin-right: 0;
-
-    
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.02em; 
-}
