@@ -17,6 +17,10 @@
 
 body {
     /* Desktop */
+  /* @font-face 
+      font-family: 'Manrope', sans-serif; */
+     
+  
 
 position: relative;
 width: 100vw;
@@ -27,10 +31,10 @@ background-color: var(--backgrond);
 
 header {
     position:relative;
-width: 918px;
-height: 50px;
-margin-left: 280px;
-margin-top: 50px;
+width: 57.375rem;
+height: 3.125rem;
+margin-left: 17.5rem;
+margin-top: 3.125rem;
 
 
 }
@@ -48,10 +52,10 @@ margin-top: 0px;
 /* Menu-header */
 .menu-list {
     position: absolute;
-width: 431.35px;
-height: 19px;
-margin-left: 200px;
-margin-top: 14.5px;
+width: 26.96rem;
+height: 1.19rem;
+margin-left: 12.5rem;
+margin-top: 0.91rem;
 
 
 }
@@ -61,44 +65,41 @@ margin-top: 14.5px;
 .menu-list ul ol {
     display: inline;
     justify-content: space-between;
-    margin: 0 18px;
+    margin: 0 1.125rem;
    
 
 }
 
 .menu-list ul ol a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.0;
     color: var(--text-color);
     text-decoration: none;
 }
 
 .menu-list ul .home {
     /* position: absolute; */
-width: 43.24px;
-height: 19px;
+width: 2.7rem;
+height: 1.19rem;
 margin-left: 0;
 
 
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
-line-height: 19px;
+font-size: 0.875rem;
+line-height: 1.19rem;
 letter-spacing: 0.02em;
 }
 
 .menu-list ul .lojas {
- width: 41.08px;
-height: 19px;
+ width: 2.57rem;
+height: 1.188rem;
 margin-right: 0;
-
-
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.0
 }
 
 /* Botão */
@@ -108,34 +109,34 @@ letter-spacing: 0.0
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 11px 38px;
+padding: 0.69rem 2.375rem;
 
 position: absolute;
-width: 172px;
-height: 37px;
-margin-left:744px ;
-margin-top: 5px;
+width: 10.75rem;
+height: 2.31rem;
+margin-left:46.5rem ;
+margin-top: 0.3125rem;
 
 
-border: 1px solid #8257E5;
+border: 0.0625rem solid #8257E5;
 box-sizing: border-box;
-border-radius: 6px;
+border-radius: 0.375rem;
 }
 
 .pegar {
     position: static;
-width: 96px;
-height: 15px;
-left: 38px;
-top: 11px;
+width: 6rem;
+height: 0.94rem;
+left: 2.375rem;
+top: 0.69rem;
 background: none;
 border: none;
 
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 800;
-font-size: 11px;
-line-height: 15px;
+font-size: 0.69rem;
+line-height: 0.94rem;
 /* identical to box height */
 
 letter-spacing: 0.02em;
@@ -148,30 +149,100 @@ color: var(--text-color);
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 0px 10px;
+margin: 0rem 0.625rem;
 }
 
 /* Main */
 
 
-.blur-left{
+.blur-left {
     position: absolute;
-width: 321px;
-height: 321px;
-margin-left: -29px;
-margin-top: 495px;
+width: 20.06rem;
+height: 20.06rem;
+margin-left: -1.81rem;
+margin-top: 30.94rem;
 
 background: #996DFF;
-filter: blur(400px);
+filter: blur(25rem);
 }
 
 .blur-right {
     position: absolute;
-width: 321px;
-height: 321px;
-margin-left: 1200px;
-margin-top: -100px;
+width: 20.06rem;
+height: 20.06rem;
+margin-left: 75rem;
+margin-top: -6.25rem;
 
 background: #996DFF;
-filter: blur(400px);
+filter: blur(25rem);
+}
+
+ main .image-coffee {
+position: absolute;
+width: 798.78px;
+height: 506.47px;
+margin-left: 420px;
+margin-top: 334px;
+border: solid #FFFF 1px;
+}
+
+
+ .container-geral {
+    
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+ /* position: absolute; */
+width: 548px;
+height: 204px;
+margin-left: 415px;
+margin-top: 40px;
+/* border: #FFF solid 1px; */
+
+}
+
+   .title1 {
+ 
+width: 471px;
+height: 109px;
+
+display: inline;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 109px;
+letter-spacing: -0.03em;
+
+color: var(--text-color);
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ .title2 {
+     /* position: absolute; */
+    width: 548px;
+    height: 109px;
+   
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 109px;
+    letter-spacing: -0.03em;
+    /* color: #8257E5; */
+    /* border: 2px solid #8257E5; */
+
+
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+color: #000;
+text-shadow: -1px -1px 0px #8257E5,
+1px -1px 0px #8257E5,
+-1px 1px 0px #8257E5,
+1px 1px 0px #8257E5;
 }
