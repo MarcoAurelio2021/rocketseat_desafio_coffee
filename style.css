@@ -19,7 +19,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-
+background: var(--backgrond);
     
 }
 
@@ -28,7 +28,6 @@ width: 918px;
 height: 50px;
 margin-left: 280px;
 margin-top: 50px;
-border: solid 1px;
 
 display: flex;
 justify-content: space-between;
@@ -58,7 +57,7 @@ header nav {
 li a {
 width: 38.92px;
 height: 19px;
-/* color: var(--text-color); */
+color: var(--text-color);
 
 font-family: 'Manrope';
 font-style: normal;
@@ -115,18 +114,21 @@ margin: 0px 10px;
 }
 
 main {
+   
     width: 100vw;
+    height: 100vh;
+    display: flex;
 
 }
 
 main h1 {
 width: 548px;
 height: 204px;
-
+margin-left: 445px;
+margin-top: 50px;
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
 justify-content: center;
-align-items: center;
 
 font-family: 'Manrope';
 font-style: normal;
@@ -134,22 +136,52 @@ font-weight: 700;
 font-size: 80px;
 line-height: 109px;
 letter-spacing: -0.03em;
-border: solid 1px;
+color: var(--text-color);
+
+
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h1 span {
- display: flex;
+position: absolute;
 width: 548px;
 height: 109px;
 
+margin-top: 90px;
+color: var(--backgrond);
 
-border: 2px solid #8257E5;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }
 
+.blur-right{
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    margin-left: 1127px;
+    margin-top: -63px;
+    
+    background: #996DFF;
+    filter: blur(400px);
+}
 
+.blur-left {
+ position: absolute;
+width: 321px;
+height: 321px;
+margin-left: -29px;
+margin-top: 495px;
 
+background: #996DFF;
+filter: blur(400px);
+}
 
+.image-coffe {
+position: absolute;
+width: 798.78px;
+height: 506.47px;
+margin-left: 426px;
+margin-top: 187px;
+
+}
 
