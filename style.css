@@ -14,3 +14,142 @@
     box-sizing: border-box;
    
 }
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+
+header {
+width: 918px;
+height: 50px;
+margin-left: 280px;
+margin-top: 50px;
+border: solid 1px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#logo {
+width: 43.06px;
+height: 50px;
+}
+
+
+header nav {
+    width: 431.35px;
+    height: 19px;
+   
+}
+
+ nav ul  {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li a {
+width: 38.92px;
+height: 19px;
+/* color: var(--text-color); */
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+text-decoration: none;
+}
+
+.btn {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 38px;
+
+width: 172px;
+height: 37px;
+border: 1px solid #8257E5;
+box-sizing: border-box;
+border-radius: 6px;
+}
+
+.btn .pegar {
+    /* PEGAR MEU CAFÉ */
+
+
+position: static;
+width: 96px;
+height: 15px;
+border: none;
+background: none;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: var(--text-color);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+main {
+    width: 100vw;
+
+}
+
+main h1 {
+width: 548px;
+height: 204px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 109px;
+letter-spacing: -0.03em;
+border: solid 1px;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 span {
+ display: flex;
+width: 548px;
+height: 109px;
+
+
+border: 2px solid #8257E5;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
