@@ -26,33 +26,42 @@ overflow: hidden;
 }
 
 header {
+   
 width: 918px;
 height: 50px;
-margin-left: 280px;
-margin-top: 50px;
+
+margin: 0 auto;
+padding: 4rem;
 
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 }
-#logo {
+
+#logo{
+  
+position: absolute;
 width: 43.06px;
 height: 50px;
+
+left: 350px ;
+top: 50px;
+
 }
 
 
 header nav {
+    position: absolute;
     width: 431.35px;
     height: 19px;
-   
+    
 }
 
  nav ul  {
     display: flex;
+    justify-content: space-between;
     list-style: none;
     text-decoration: none;
-    display: flex;
-    justify-content: space-between;
 
 }
 
@@ -72,11 +81,15 @@ text-decoration: none;
 }
 
 .btn {
+position: absolute;
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content:center;
 align-items: center;
 padding: 11px 38px;
+
+top: 50px;
+right: 250px;
 
 width: 172px;
 height: 37px;
@@ -87,7 +100,6 @@ border-radius: 6px;
 
 .btn .pegar {
     /* PEGAR MEU CAFÉ */
-
 
 position: static;
 width: 96px;
@@ -116,21 +128,20 @@ margin: 0px 10px;
 }
 
 main {
-   
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+ margin: 0 auto;
+ text-align: center;
+    
 
 }
 
 main h1 {
 width: 548px;
 height: 204px;
-margin-left: 445px;
-margin-top: 50px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+margin: 0 auto;
+
 
 font-family: 'Manrope';
 font-style: normal;
@@ -149,8 +160,9 @@ h1 span {
 position: absolute;
 width: 548px;
 height: 109px;
+display: block  ;
 
-margin-top: 90px;
+top: 90px;
 color: var(--backgrond);
 
 text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
@@ -179,11 +191,15 @@ filter: blur(400px);
 }
 
 .image-coffe {
+
 position: absolute;
 width: 798.78px;
 height: 506.47px;
-margin-left: 426px;
-margin-top: 187px;
+
+margin: 0 auto;
+
+top: 150px;
+left: 425px;
 
 }
 
