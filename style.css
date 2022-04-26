@@ -19,6 +19,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
+
 background: var(--backgrond);
 
 overflow: hidden;
@@ -26,26 +27,29 @@ overflow: hidden;
 }
 
 header {
-   
+   /* position: absolute; */
 width: 918px;
 height: 50px;
 
 margin: 0 auto;
 padding: 4rem;
+border: #FFF solid;
 
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 #logo{
-  
+
 position: absolute;
 width: 43.06px;
 height: 50px;
 
-left: 350px ;
-top: 50px;
+
+/* left: 350px ;
+top: 50px; */
 
 }
 
@@ -54,7 +58,6 @@ header nav {
     position: absolute;
     width: 431.35px;
     height: 19px;
-    
 }
 
  nav ul  {
@@ -88,8 +91,8 @@ justify-content:center;
 align-items: center;
 padding: 11px 38px;
 
-top: 50px;
-right: 250px;
+/* top: 50px;
+right: 250px; */
 
 width: 172px;
 height: 37px;
@@ -172,8 +175,8 @@ text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var
     position: absolute;
     width: 321px;
     height: 321px;
-    margin-left: 1127px;
-    margin-top: -63px;
+    left: 1127px;
+    top: -63px;
     
     background: #996DFF;
     filter: blur(400px);
@@ -183,8 +186,8 @@ text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var
  position: absolute;
 width: 321px;
 height: 321px;
-margin-left: -29px;
-margin-top: 495px;
+left: -29px;
+top: 495px;
 
 background: #996DFF;
 filter: blur(400px);
@@ -192,14 +195,12 @@ filter: blur(400px);
 
 .image-coffe {
 
-position: absolute;
+position: relative;
 width: 798.78px;
 height: 506.47px;
 
 margin: 0 auto;
 
-top: 150px;
-left: 425px;
 
 }
 
