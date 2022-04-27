@@ -27,12 +27,14 @@ overflow: hidden;
 }
 
 header {
-   /* position: absolute; */
+ 
 width: 918px;
 height: 50px;
 
-margin: 0 auto;
-padding: 4rem;
+
+
+margin: 50px auto;
+
 border: #FFF solid;
 
 display: flex;
@@ -46,11 +48,6 @@ align-items: center;
 position: absolute;
 width: 43.06px;
 height: 50px;
-
-
-/* left: 350px ;
-top: 50px; */
-
 }
 
 
@@ -91,8 +88,7 @@ justify-content:center;
 align-items: center;
 padding: 11px 38px;
 
-/* top: 50px;
-right: 250px; */
+
 
 width: 172px;
 height: 37px;
