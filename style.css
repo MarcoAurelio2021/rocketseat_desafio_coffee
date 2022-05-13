@@ -16,7 +16,7 @@
 }
 
 body { 
-    position: relative;
+    
     width: 100vw;
     height: 100vh;
 
@@ -200,6 +200,24 @@ height: 506.47px;
 top: 200px;
 }
 
-@media (max-width:428px) {
- 
+@media (max-width: 428px) {
+
+    header {
+        width: 100vw;
+        margin: 0;
+    }
+
+  header nav {
+  visibility: hidden;
+  }
+
+  header ::before {
+      content: "Rocketseat";
+      color: white;
+      
+  }
+  
+
+   
 }
+
