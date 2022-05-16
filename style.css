@@ -215,8 +215,8 @@ top: 200px;
         width: 428px;
         height: 100px;
         padding: 0;
-        left: -3px;
-        top: 40px;   
+        /* left: -3px; */
+       padding: 2rem;
     }
 
     header::after {
@@ -260,13 +260,22 @@ top: 200px;
 
  
 main {
-    box-sizing: border-box;
-height: calc(100% - 140px);
-
+   height: 100%;
+   width: 428px;
 }
 
 .image-coffe {
-width: 428px;
+    
+    width: 428px;
+    height: 333px;
+
+    top: 600px;
+    
+}
+
+ .image-coffe .img-coffe {
+  
+   width: 428px;
 }
 
 }
