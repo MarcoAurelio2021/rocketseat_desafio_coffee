@@ -206,9 +206,9 @@ top: 200px;
 
 
     body {
-        position: fixed;
+        
         width: 428px;
-        height: 100vh;
+        height: 926px;
     }
 
     header {
@@ -262,6 +262,7 @@ top: 200px;
 main {
    height: 100vh;
    width: 428px;
+   height: 926px;
    
 }
 
