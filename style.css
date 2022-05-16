@@ -208,7 +208,7 @@ top: 200px;
     body {
         position: fixed;
         width: 428px;
-        height: 926px;
+        height: 100vh;
     }
 
     header {
