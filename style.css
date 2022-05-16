@@ -213,7 +213,7 @@ top: 200px;
 
     header {
         width: 428px;
-        height: 100px;
+        height: 100vh;
         padding: 0;
         /* left: -3px; */
        padding: 2rem;
@@ -262,7 +262,7 @@ top: 200px;
 main {
    height: 100%;
    width: 428px;
-   height: 926px;
+   height: 100vh;
 }
 
 .image-coffe {
