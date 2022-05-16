@@ -208,12 +208,12 @@ top: 200px;
     body {
         position: fixed;
         width: 428px;
-        height: 926px;
+        height: 100vh;
     }
 
     header {
         width: 428px;
-        height: 100vh;
+        height: 100px;
         padding: 0;
         /* left: -3px; */
        padding: 2rem;
@@ -260,9 +260,9 @@ top: 200px;
 
  
 main {
-   height: 100%;
-   width: 428px;
    height: 100vh;
+   width: 428px;
+   
 }
 
 .image-coffe {
