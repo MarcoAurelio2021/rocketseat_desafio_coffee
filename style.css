@@ -19,6 +19,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
+    
 
 background: var(--backgrond);
 
@@ -204,79 +205,64 @@ top: 200px;
 
 @media (max-width: 428px) {
 
+  
+
 
     body {
-        
+        position: relative;
         width: 428px;
         height: 926px;
+       
     }
 
     header {
+        position: relative;
         width: 428px;
-        height: 100px;
+        height: 60px;
+        margin-top: 50px;
         padding: 0;
-        /* left: -3px; */
-       padding: 2rem;
+        
+       
+        
     }
 
-    header::after {
+    #logo {
+        position: absolute;
+        top: 4%;
+        left: 6%;
+        
+
+    }
+    
+
+    #logo::after {
         content: 'Rocketseat';
         color: var(--text-color);
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 700;
-        position: absolute;
+        
 
         left: 5rem;
     }
 
- 
-
-    #logo {
-        left: 6.07%;
-    }
-    header nav {
+    header nav, .btn {
         visibility: hidden;
     }
 
-    .blur-left {
-        position: absolute;
-        width: 321px;
-        height: 321px;
-        left: 68px;
-        top: 706px;
-       
-        filter: blur(400px);
+    main {
+        position: relative;
+        height: calc(428px - 110px);
     }
-
-    .blur-right {
+    main h1 {
         position: absolute;
-        width: 321px;
-        height: 321px;
-        left: 68px;
-        top: 706px;
-       
-        filter: blur(400px); 
+        width: 346px;
+        height: 129px;
+        left: 42px;
+        top: 533px;
     }
-
- 
-main {
-   height: 100vh;
-   width: 428px;
-   height: 926px;
-   
-}
-
-.image-coffe {
-    width: 428px;
-    height: 333px;
-
-    top: 600px;
     
 }
 
- .image-coffe .img-coffe {
-  
-   width: 428px;
-}
+ 
 
-}
+ 
