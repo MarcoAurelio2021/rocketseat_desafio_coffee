@@ -230,30 +230,31 @@ top: 200px;
     }
 
     header {
-        display: flex;
+    
         position: relative;
         width: 428px;
         height: 60px;
          top: 40px;
-         left: -3px;
+         
         padding: 0;
         
+        
     }
-
-    #logo {
-        display: flex;
+    
+    .icon{
+      position: absolute;
+       left: 5%;
         width: 35px;
-        position: absolute;
-       
-       
-       
+        order: 1;
     }
 
   header #logo p {
-        
+ position: absolute;
     color: var(--text-color);
     font-size: 1.7rem;
     font-weight: 700;
+
+    left: 16%;
     
     
     
